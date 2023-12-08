@@ -1,0 +1,84 @@
+.skills__container {
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1.875rem;
+  row-gap: 1.875rem;
+}
+
+/* .skills__img {
+    width: 70%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    background-color: var(--container-color);
+} */
+
+.skills__card {
+  position: relative;
+  perspective: 1000px; /* 3D 효과를 위한 perspective 설정 */
+  display: flex;
+  justify-content: center;
+}
+
+.skills__img {
+  width: 70%;
+  height: auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  background-color: var(--container-color);
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+}
+
+.skills__card:hover .skills__img {
+  transform: rotateY(180deg); /* 호버 시 180도 회전 */
+  display: none;
+}
+
+.skills__overlay {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgb(255, 199, 205);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 199, 205, 1) 0%,
+    rgba(198, 201, 198, 1) 100%
+  );
+  font-size: var(--h3-font-size);
+  border-radius: var(--border-radius);
+  transform: rotateY(180deg); /* 초기에는 뒷면이 보이게 설정 */
+  transition: transform 0.3s;
+  visibility: hidden;
+  box-shadow: var(--shadow);
+}
+
+.skills__card:hover .skills__overlay {
+  transform: rotateY(0deg); /* 호버 시 다시 정면으로 회전 */
+  visibility: visible;
+}
+
+.skills__text {
+  margin: 0;
+  color: #353252;
+  font-family: var(--body-font);
+  font-weight: var(--font-bold);
+  user-select: none;
+  text-shadow: 2px 2px 4px #f9f7fd;
+}
+
+@media screen and (max-width: 1024px) {
+  .skills__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
