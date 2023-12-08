@@ -1,7 +1,7 @@
 # Chaehyun's Portfolio website
 <br>
 
-![7조  3기 7조 썸네일](https://github.com/AIVLE-School-Third-Big-Project/KT_BigProject_07/assets/88769484/57a2b84b-aa2c-4361-9cbc-14303313214d)
+![home](https://github.com/ChaeHyun-Lee/portfolio-Chaehyun/assets/88769484/11584040-c2af-4e27-a2d9-b15ca5348db3)
 
 <br>
    
