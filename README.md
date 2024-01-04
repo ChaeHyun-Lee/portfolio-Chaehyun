@@ -18,7 +18,7 @@
 <br>
   
 ## Demo Video
-<img src="https://github.com/AIVLE-School-Third-Big-Project/KT_BigProject_07/assets/88769484/22e9dea5-5c6d-4aa4-912c-81c856cfcef0" style="width:400px" >
+![546aa98b-5a28-4d7f-8d1d-bf39d0e1d40c](https://github.com/ChaeHyun-Lee/portfolio-Chaehyun/assets/88769484/2232f195-43f9-447f-8f79-12b31d8bfe1f)
 <br>
 <br>
 
