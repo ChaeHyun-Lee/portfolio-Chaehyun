@@ -1,5 +1,3 @@
-<div align=center>
-
 # Chaehyun's Portfolio website (Responsive website)
 <br>
 
@@ -17,13 +15,13 @@
 
 ### Resume.jsx
 ![Resume jsx](https://github.com/ChaeHyun-Lee/portfolio-Chaehyun/assets/88769484/eb77e3da-5634-48c8-9815-7f6efef28d29)
-- Card.jsx를 컴포넌트로 만들고 데이터를 Data.jsx에 담아 props를 활용하여 재사용성을 높였습니다. 경력이 추가되면 바로바로 Data.jsx에 추가하면 되도록 코드를 구성했습니다.
-- 반응형 디자인입니다.
-- unordered list4   
+-> Card.jsx를 컴포넌트로 만들고 데이터를 Data.jsx에 담아 props를 활용하여 재사용성을 높였습니다. 경력이 추가되면 바로바로 Data.jsx에 추가하면 되도록 코드를 구성했습니다.
 <br>
 <br>
+
 ### Skills.jsx
 ![Skills jsx](https://github.com/ChaeHyun-Lee/portfolio-Chaehyun/assets/88769484/e06f54f2-0ec6-4369-aa46-2b353bcefc3c)
+->
 <br>
 <br>
 ### Portfolio.jsx
@@ -48,4 +46,3 @@
 ### Live - https://chaehyunsportfolio.netlify.app/
 <br>
 <br>
-</div>
