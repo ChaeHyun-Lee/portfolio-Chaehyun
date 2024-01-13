@@ -15,19 +15,27 @@
 
 ### Resume.jsx
 ![Resume jsx](https://github.com/ChaeHyun-Lee/portfolio-Chaehyun/assets/88769484/eb77e3da-5634-48c8-9815-7f6efef28d29)
--> Card.jsx를 컴포넌트로 만들고 데이터를 Data.jsx에 담아 props를 활용하여 재사용성을 높였습니다. 경력이 추가되면 바로바로 Data.jsx에 추가하면 되도록 코드를 구성했습니다.
+<aside>
+💡 Card.jsx를 컴포넌트로 만들고 데이터를 Data.jsx에 담아 props를 활용하여 재사용성을 높였습니다. 경력이 추가되면 바로바로 Data.jsx에 추가하면 되도록 코드를 구성했습니다.
+</aside>
 <br>
 <br>
 
 ### Skills.jsx
 ![Skills jsx](https://github.com/ChaeHyun-Lee/portfolio-Chaehyun/assets/88769484/e06f54f2-0ec6-4369-aa46-2b353bcefc3c)
-->
+<aside>
+💡 데이터를 Proficiency.jsx에 담아 Skills.jsx에서 map함수로 구현했습니다. 스킬이 추가되면 바로바로 Proficiency.jsx에 추가하면 되도록 코드를 구성했습니다. 각 스킬카드마다 overlay를 만들어서 :hover시 회전이 되도록 transform: rotateY 코드를 추가해 시각적 재미를 더했습니다.
+</aside>
 <br>
 <br>
+
 ### Portfolio.jsx
 ![Projects jsx](https://github.com/ChaeHyun-Lee/portfolio-Chaehyun/assets/88769484/5e978f38-e132-4812-8ac3-c227f98b8941)
+<aside>
+💡 프로젝트가 추가되면 바로바로 Menu.jsx에 추가하면 되도록 코드를 구성했습니다. Menu.jsx의 id, image, title, category, link를 props로 전달받아 Portfolio.jsx에서 map함수로 구현했습니다.
 <br>
 <br>
+
 ### Contact.jsx
 ![Contact jsx](https://github.com/ChaeHyun-Lee/portfolio-Chaehyun/assets/88769484/32037fd8-69b7-4241-902f-636e6dab9370)
  
